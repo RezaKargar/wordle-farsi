@@ -6,7 +6,7 @@ export const ABOUT_GAME_MESSAGE = 'درباره این بازی'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'تعداد حروف کافی نیست'
 export const WORD_NOT_FOUND_MESSAGE = 'این کلمه وجود ندارد'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
-  `جواب این بود ${solution}`
+  `متاسفانه باختی! جواب "${solution}" بود`
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Delete'
 export const STATISTICS_TITLE = 'آمار'
